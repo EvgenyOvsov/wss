@@ -57,12 +57,12 @@ python3 -m pip install -r requirements.txt
 
 Firstly you need to define some envs (because of to store passwords in repositories is veeeeery bad idea)
 
-SMTP_LOGIN - Your email login
-SMTP_PASS - Your email password 
-DIGOC_KEY - Digital Ocean key
-DIGOC_SECRET - Digital Ocean secret
-
-Secondly you need to define paths to the ssl-sertificates in *config.py*
+SMTP_LOGIN - Your email login  
+SMTP_PASS - Your email password   
+DIGOC_KEY - Digital Ocean key  
+DIGOC_SECRET - Digital Ocean secret  
+  
+Secondly you need to define paths to the ssl-sertificates in *config.py*  
 ```
 SSL = {
     "cert": r"/etc/letsencrypt/live/mysite.com/fullchain.pem",
