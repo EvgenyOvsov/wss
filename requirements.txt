@@ -1,0 +1,10 @@
+# Evgeny Ovsov
+
+websockets == 8.0.2
+
+# MongoDB communications
+pymongo == 3.8.0
+
+#DigitalOceanSpaces communications
+botocore == 1.13.28
+boto3 == 1.10.28
